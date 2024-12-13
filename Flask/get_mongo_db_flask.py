@@ -1,4 +1,5 @@
 import os
+
 import pandas as pd
 from flask import Flask, render_template_string
 from pymongo import MongoClient
@@ -6,20 +7,25 @@ from pymongo import MongoClient
 
 def avg_by_depart(df):
     """
-    Computes a DataFrame containing aggregated salary statistics by department from
-    the provided input DataFrame. The output DataFrame includes the average salary,
-    total salary, and the number of employees for each department.
+    Calculates and aggregates various salary-related statistics by department.
 
-    :param df: A pandas DataFrame containing at least the following columns:
-               'Department' (department identifier or name), 'salary' (employee salary),
-               and 'emp_id' (unique employee identifier).
+    This function processes a dataframe containing employee information and computes
+    the following statistics:
+    - Average salary per department
+    - Total salary paid per department
+    - Number of employees per department
+    - Number of employees earning below the overall average salary, grouped by department
+    - Number of employees earning above the overall average salary, grouped by department
+
+    The resulting dataframe contains consolidated information for each department.
+
+    :param df: Input dataframe containing at least the columns 'Department', 'salary',
+        and 'emp_id'. Assumed to have numeric 'salary' values and unique 'emp_id' values
+        for valid processing.
     :type df: pandas.DataFrame
-    :return: A pandas DataFrame with aggregated salary-related statistics by department.
-             The output contains the following columns:
-             - 'Department': the department names or identifiers.
-             - 'Number of Employees': the count of employees in each department.
-             - 'Average Salary By Dept': the average salary for each department, rounded to 2 decimals.
-             - 'Total Salary': the total salary paid in each department.
+    :return: A dataframe containing aggregated salary statistics by department, including
+        number of employees, below average salary counts, above average salary counts,
+        average salary by department, and total salary by department.
     :rtype: pandas.DataFrame
     """
     df_avg_salary_by_dept = round(df.groupby('Department')['salary'].mean().reset_index(), 2)
@@ -29,8 +35,17 @@ def avg_by_depart(df):
     df_count = df.groupby('Department')['emp_id'].count().reset_index()
     df_count.columns = ['Department', 'Number of Employees']
 
-    df_salary_dept = df_count.merge(df_avg_salary_by_dept, on='Department').merge(df_total_salary_by_dept,
-                                                                                  on='Department')
+    # count number of employees below and above average salary by departments.
+    # below average
+    df_below = df[df['salary'] < df['salary'].mean()].groupby('Department')['emp_id'].count().reset_index()
+    df_below.columns = ['Department', 'Below Average Salary']
+
+    # above average
+    df_above = df[df['salary'] > df['salary'].mean()].groupby('Department')['emp_id'].count().reset_index()
+    df_above.columns = ['Department', 'Above Average Salary']
+
+    df_salary_dept = df_count.merge(df_above, on='Department').merge(df_below, on='Department').merge(
+        df_avg_salary_by_dept, on='Department').merge(df_total_salary_by_dept, on='Department')
     return df_salary_dept
 
 
@@ -72,17 +87,14 @@ app = Flask(__name__)
 @app.route('/')
 def display_data():
     """
-    Displays employee data and average salary by department in a web browser using Flask.
+    Handles the root route ('/') by displaying employee data and average salary by
+    department in a styled HTML table format. Converts pandas DataFrames into HTML
+    tables and uses Flask's `render_template_string` method to embed these tables
+    into an HTML page for rendering.
 
-    This function fetches and converts two DataFrame objects, `df_employees` and
-    `df_avg_salary_by_dept`, into their corresponding HTML table representations.
-    The tables are then rendered into an HTML template, styled, and returned for
-    the web browser to display. The function uses Flask's `render_template_string`
-    for inline HTML rendering.
-
+    :return: The rendered HTML page displaying employee data and the average salary
+        by department.
     :rtype: str
-    :return: An HTML string containing tables styled and embedded within a
-        complete HTML document, ready to be served to the web client.
     """
     # Convert DataFrame to HTML
     html_table1 = df_employees.to_html(index=False)
