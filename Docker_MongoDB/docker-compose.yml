@@ -1,0 +1,21 @@
+version: "3.8"
+services:
+  mongodb:
+    image: mongo
+    container_name: employees-container
+    restart: always
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: adminpassword
+    volumes:
+      - mongodb_data:/data/db
+    networks:
+      - app_network  # Ensure this network exists and is configured correctly
+  
+volumes:
+  mongodb_data:
+networks:
+  app_network:  # Define your network here
+    driver: bridge  # or host, depending on your use case

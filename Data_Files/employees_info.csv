@@ -1,0 +1,608 @@
+emp_id,First_Name,Last_Name,Gender,Country,Date_of_Birth,Date_Hired,Department,Position,Site,salary
+101000,Hussian,Jalal,Male,Malaysia,1967-07-04,2022-04-01,Executive Management,Chief Executive Officer,Kulim,26077.41
+101001,Allison,Kim,Female,Guyana,1982-06-27,2024-07-21,Executive Management,Chief Information Officer,Kulim,30958.41
+101002,Gregory,Velazquez,Male,Luxembourg,1967-12-15,2023-11-07,Executive Management,Chief Financial Officer,Kulim,34533.79
+101003,Madison,Ramirez,Female,Columbia,1991-03-31,2020-09-18,Site Management,Kulim Site Manager,Kulim,15121.71
+101004,Savannah,Miller,Female,Malaysia,1968-02-24,2021-01-08,Site Management,Kuala Lumpur Site Manager,Kuala Lumpur,13982.56
+101005,Amanda,Ochoa,Female,Namibia,1988-03-15,2023-12-19,Site Management,Senai Site Manager,Senai,17519.36
+101006,Melissa,Meyer,Female,Indonesia,1978-04-10,2024-09-01,Site Management,Surabaya Site Manager,Surabaya,13390.05
+101007,Thaqif,Salim,Male,Malaysia,1993-02-02,2022-01-26,Safety,Safety Manager,Senai,15715.28
+101008,Daniel,Shamsul,Male,Malaysia,2003-03-06,2020-08-23,Executive Management,Executive Management Engineer,Senai,19824.88
+101009,Hafiz,Wahid,Male,Indonesia,1981-12-19,2022-11-18,Information Technology,Information Technology Manager,Surabaya,17252.39
+101010,Thaqif,Rizam,Male,Indonesia,1982-05-10,2024-06-16,Information Technology,Information Technology Analyst,Surabaya,6501.22
+101011,Zainuddin,Mohamad,Male,Malaysia,1984-07-07,2022-11-19,Site Support,Site Support Analyst,Kuala Lumpur,5030.19
+101012,Zainuddin,Rami,Male,Malaysia,1979-07-15,2019-12-26,Site Support,Site Support Executive,Senai,3956.93
+101013,Fariz,Idris,Male,Malaysia,1975-06-07,2022-09-02,Sales,Sales Engineer,Kuala Lumpur,11673.8
+101014,Sulaiman,Saad,Male,Malaysia,1987-07-22,2022-07-23,Data Analysis,Data Analysis Engineer,Surabaya,11977.35
+101015,Luqman,Omar,Male,Malaysia,1986-07-22,2022-06-08,Data Analysis,Data Analysis Engineer,Kuala Lumpur,7138.76
+101016,Fadhil,Shamsul,Male,Malaysia,1976-05-17,2022-05-05,Information Technology,Information Technology Manager,Kulim,13756.39
+101017,Junaid,Zainuddin,Male,Indonesia,1973-02-09,2024-02-16,Site Support,Site Support Manager,Surabaya,15321.23
+101018,Ilham,Zahid,Male,Malaysia,1989-12-18,2023-03-07,Human Resource,HR Executive,Kuala Lumpur,9717.01
+101019,Arif,Rizki,Male,Indonesia,1966-08-23,2020-07-09,Human Resource,HR Engineer,Surabaya,3646.53
+101020,Syafiq,Safwan,Male,Malaysia,1979-08-22,2022-12-22,Sales,Sales Analyst,Kuala Lumpur,10264.03
+101021,Haziq,Zulkifli,Male,Malaysia,1980-05-10,2024-05-03,Site Management,Site Management Manager,Surabaya,13626.74
+101022,Ridwan,Farhan,Male,Malaysia,2005-06-15,2022-03-17,Engineering,Engineering Engineer,Surabaya,11690.21
+101023,Taufik,Mustaqim,Male,Malaysia,1984-05-05,2022-05-19,Information Technology,Information Technology Manager,Kulim,16281.02
+101024,Qayyum,Khalid,Male,Indonesia,2001-12-17,2024-04-02,Site Management,Site Management Manager,Surabaya,17901.86
+101025,Nizamuddin,Rizam,Male,Malaysia,2004-01-12,2020-09-30,Information Technology,Information Technology Engineer,Kuala Lumpur,5953.39
+101026,Abid,Zulkifli,Male,Malaysia,1964-12-22,2019-12-13,Sales,Sales Executive,Surabaya,5676.53
+101027,Danish,Arif,Male,Malaysia,1982-04-15,2022-07-23,Information Technology,Information Technology Analyst,Kuala Lumpur,12875.61
+101028,Omar,Zainudeen,Male,Malaysia,2002-06-12,2022-04-08,Data Analysis,Data Analysis Executive,Kulim,5665.51
+101029,Zikri,Shamsul,Male,Indonesia,2006-03-22,2021-11-21,Site Management,Site Management Analyst,Surabaya,10988.8
+101030,Ridwan,Wahid,Male,Malaysia,1968-04-05,2023-10-06,Engineering,Engineering Manager,Kuala Lumpur,13328.16
+101031,Omar,Zawawi,Male,Malaysia,1997-12-12,2020-08-09,Executive Management,Executive Management Executive,Kulim,18954.92
+101032,Khairul,Yasin,Male,Malaysia,2000-08-18,2020-03-03,Site Support,Site Support Manager,Kuala Lumpur,13111.44
+101033,Ihsan,Rahman,Male,Malaysia,2002-10-22,2020-07-25,Data Analysis,Data Analysis Executive,Kulim,7722.34
+101034,Haikal,Basri,Male,Malaysia,1998-03-06,2023-04-28,Human Resource,HR Analyst,Surabaya,10264.62
+101035,Ridwan,Omar,Male,Malaysia,1978-09-13,2021-08-16,Data Analysis,Data Analysis Analyst,Senai,5784.61
+101036,Sufyan,Irwan,Male,Malaysia,1994-08-29,2024-08-05,Sales,Sales Executive,Senai,13107.87
+101037,Azzam,Zainuddin,Male,Malaysia,2006-03-09,2020-10-12,Finance,Finance Engineer,Kulim,5584.32
+101038,Thaqif,Saad,Male,Malaysia,1997-08-01,2022-06-13,Finance,Finance Manager,Kuala Lumpur,14268.35
+101039,Jihan,Wahid,Male,Indonesia,1985-10-13,2020-06-07,Finance,Finance Engineer,Surabaya,11514.65
+101040,Farid,Syed Mohammed Jalal,Male,Malaysia,1989-01-19,2024-03-05,Site Support,Site Support Manager,Kulim,14713.34
+101041,Haikal,Rahman,Male,Malaysia,1988-02-26,2022-03-02,Sales,Sales Engineer,Senai,10063.17
+101042,Ikram,Shahbaz,Male,Malaysia,1993-11-03,2022-05-16,Safety,Safety Engineer,Senai,12355.13
+101043,Bahar,Pasha,Male,Malaysia,2003-05-09,2021-04-22,Engineering,Engineering Analyst,Senai,13448.21
+101044,Iqbal,Tohir,Male,Malaysia,1998-06-06,2023-05-29,Data Analysis,Data Analysis Analyst,Kulim,13159.4
+101045,Taufik,Zulkifli,Male,Indonesia,1986-11-17,2020-01-19,Finance,Finance Executive,Surabaya,13379.22
+101046,Raziq,Malik,Male,Indonesia,1987-10-28,2021-05-17,Finance,Finance Executive,Surabaya,8740.13
+101047,Qudrat,Hisham,Male,Malaysia,1965-01-11,2024-06-02,Information Technology,Information Technology Analyst,Senai,4697.98
+101048,Saad,Ahmad,Male,Indonesia,1965-07-26,2023-05-10,Finance,Finance Engineer,Surabaya,9736.26
+101049,Nizam,Rami,Male,Malaysia,1971-04-01,2021-09-19,Site Management,Site Management Analyst,Surabaya,6986.13
+101050,Mikhail,Azman,Male,Malaysia,1974-11-07,2020-04-27,Information Technology,Information Technology Manager,Kuala Lumpur,17931.67
+101051,Shahir,Mohammad,Male,Malaysia,1979-02-17,2021-05-02,Engineering,Engineering Manager,Kuala Lumpur,13299.48
+101052,Khodir,Zahid,Male,Indonesia,1968-04-15,2024-07-27,Information Technology,Information Technology Executive,Surabaya,13021.37
+101053,Azhari,Firas,Male,Malaysia,1984-11-06,2023-05-20,Site Support,Site Support Engineer,Surabaya,10303.81
+101054,Bahtiar,Syahril,Male,Malaysia,1972-10-30,2020-02-10,Sales,Sales Analyst,Senai,7941.71
+101055,Ikmal,Bakar,Male,Malaysia,1972-08-24,2024-01-16,Human Resource,HR Engineer,Senai,12706.3
+101056,Saad,Nabil,Male,Malaysia,1977-11-08,2023-10-04,Information Technology,Information Technology Analyst,Senai,13022.06
+101057,Zulfadli,Bashir,Male,Malaysia,2002-01-01,2022-06-02,Executive Management,Executive Management Manager,Kulim,19473.42
+101058,Kamal,Zahid,Male,Malaysia,1968-09-10,2021-01-10,Data Analysis,Data Analysis Analyst,Senai,9958.89
+101059,Thaqif,Shamsul,Male,Indonesia,1975-11-26,2022-01-07,Engineering,Engineering Analyst,Surabaya,8141.67
+101060,Ihsan,Farhan,Male,Malaysia,2005-09-26,2023-03-10,Executive Management,Executive Management Analyst,Senai,20539.48
+101061,Omar,Misbah,Male,Malaysia,1975-10-28,2023-09-29,Data Analysis,Data Analysis Manager,Kulim,14034.72
+101062,Malik,Yusof,Male,Malaysia,1988-07-23,2022-10-03,Executive Management,Executive Management Analyst,Senai,19386.24
+101063,Mikhail,Luqman,Male,Malaysia,2001-03-07,2022-12-07,Executive Management,Executive Management Engineer,Kuala Lumpur,19358.52
+101064,Lutfi,Umar,Male,Malaysia,1989-12-09,2022-03-15,Site Management,Site Management Executive,Kulim,11244.56
+101065,Rayyan,Zulkarnain,Male,Indonesia,1995-02-13,2020-06-16,Sales,Sales Engineer,Surabaya,5327.77
+101066,Zulfadli,Rizam,Male,Malaysia,1978-07-19,2021-08-01,Site Management,Site Management Engineer,Surabaya,6566.73
+101067,Farhan,Bakar,Male,Malaysia,1979-08-25,2020-05-28,Site Management,Site Management Manager,Kulim,15929.32
+101068,Zulkarnain,Mansor,Male,Malaysia,1974-07-15,2022-12-16,Site Management,Site Management Engineer,Kuala Lumpur,10738.51
+101069,Farhan,Mansor,Male,Malaysia,1986-11-24,2023-04-02,Executive Management,Executive Management Manager,Kuala Lumpur,19599.02
+101070,Khai,Hafiz,Male,Indonesia,1983-10-01,2024-09-06,Safety,Safety Analyst,Surabaya,3578.91
+101071,Emran,Shahrul,Male,Malaysia,1971-03-15,2022-03-20,Finance,Finance Manager,Kulim,17291.9
+101072,Danish,Ibrahim,Male,Malaysia,2001-08-10,2021-09-09,Engineering,Engineering Executive,Surabaya,11995.63
+101073,Bahar,Zaman,Male,Malaysia,2006-08-23,2020-10-27,Sales,Sales Analyst,Kulim,5788.02
+101074,Firas,Tajuddin,Male,Malaysia,1995-01-31,2021-06-07,Data Analysis,Data Analysis Engineer,Senai,9636.97
+101075,Jazlan,Nabil,Male,Malaysia,1998-06-07,2021-01-14,Information Technology,Information Technology Executive,Kuala Lumpur,4093.08
+101076,Ramzi,Rahman,Male,Malaysia,1980-07-04,2024-07-18,Data Analysis,Data Analysis Executive,Kulim,8807.77
+101077,Aidan,Firas,Male,Malaysia,1997-02-24,2021-09-25,Human Resource,HR Executive,Surabaya,6249.54
+101078,Eshan,Basri,Male,Malaysia,1997-12-10,2024-09-12,Site Support,Site Support Analyst,Kulim,4144.35
+101079,Farhan,Hisham,Male,Malaysia,1991-10-15,2021-06-06,Executive Management,Executive Management Analyst,Surabaya,25621.24
+101080,Junaid,Irwan,Male,Malaysia,2000-02-16,2020-08-10,Engineering,Engineering Manager,Surabaya,14067.39
+101081,Naim,Safwan,Male,Malaysia,1998-06-11,2024-01-31,Information Technology,Information Technology Engineer,Surabaya,11278.18
+101082,Wani,Zaki,Female,Malaysia,1990-02-16,2020-12-07,Safety,Safety Manager,Kulim,14409.71
+101083,Raniah,Wahid,Female,Malaysia,1979-07-31,2021-07-21,Information Technology,Information Technology Analyst,Senai,12371.27
+101084,Zehra,Hamid,Female,Malaysia,1967-04-29,2020-12-17,Engineering,Engineering Executive,Kuala Lumpur,13057.34
+101085,Amira,Mahyudeen,Female,Malaysia,1978-11-22,2023-03-18,Sales,Sales Analyst,Kulim,12425.67
+101086,Syira,Shamsul,Female,Indonesia,1999-03-26,2021-07-06,Site Management,Site Management Analyst,Surabaya,10224.77
+101087,Khairunnisa,Mohamad,Female,Malaysia,1986-11-22,2023-05-12,Site Support,Site Support Engineer,Surabaya,4277.51
+101088,Azmira,Mahmud,Female,Malaysia,1979-08-22,2024-01-15,Site Management,Site Management Manager,Kuala Lumpur,16465.75
+101089,Hanis,Rahman,Female,Malaysia,2000-09-15,2021-10-06,Finance,Finance Analyst,Senai,7232.56
+101090,Farisha,Iskandar,Female,Malaysia,1973-04-05,2020-05-30,Information Technology,Information Technology Engineer,Senai,5365.09
+101091,Intan,Ali,Female,Malaysia,2003-08-17,2020-12-27,Engineering,Engineering Manager,Senai,17825.14
+101092,Darlina,Noh,Female,Malaysia,1988-12-30,2023-02-16,Data Analysis,Data Analysis Executive,Kulim,4492.04
+101093,Najwa,Mahyudeen,Female,Malaysia,1990-06-22,2021-07-21,Safety,Safety Executive,Senai,11045.37
+101094,Raniah,Nabil,Female,Indonesia,1980-04-11,2024-02-24,Executive Management,Executive Management Engineer,Surabaya,25368.13
+101095,Aida,Umar,Female,Malaysia,1981-01-02,2023-11-27,Site Management,Site Management Analyst,Kulim,3931.4
+101096,Veeradena,Azzam,Female,Indonesia,1967-05-31,2023-10-08,Sales,Sales Analyst,Surabaya,8116.83
+101097,Tasha,Basri,Female,Malaysia,1991-01-09,2020-01-01,Site Management,Site Management Engineer,Kuala Lumpur,11610.65
+101098,Najwa,Zulkarnain,Female,Malaysia,1973-12-07,2022-02-10,Human Resource,HR Engineer,Kuala Lumpur,7222.57
+101099,Nabila,Rizam,Female,Indonesia,1972-01-07,2023-08-30,Engineering,Engineering Manager,Surabaya,16431.42
+101100,Syafikah,Safwan,Female,Malaysia,1972-07-07,2024-09-10,Sales,Sales Manager,Kuala Lumpur,14472.35
+101101,Jannah,Nasir,Female,Malaysia,1978-07-24,2022-02-09,Information Technology,Information Technology Analyst,Kuala Lumpur,13335.54
+101102,Puspa Ratnasari,Mizan,Female,Indonesia,1968-03-12,2023-01-11,Safety,Safety Engineer,Surabaya,4174.54
+101103,Zainab,Sukiman,Female,Malaysia,2000-05-23,2024-01-11,Data Analysis,Data Analysis Manager,Senai,14518.23
+101104,Elina,Karim,Female,Malaysia,1995-05-08,2023-06-13,Sales,Sales Manager,Kuala Lumpur,14086.26
+101105,Fariha,Iskandar,Female,Indonesia,1982-01-19,2023-07-05,Data Analysis,Data Analysis Manager,Surabaya,14171.51
+101106,Zainab,Rusli,Female,Malaysia,1979-09-24,2022-02-23,Site Support,Site Support Manager,Kulim,17800.56
+101107,Nadira,Iskandar,Female,Malaysia,1964-04-06,2021-06-19,Safety,Safety Manager,Kuala Lumpur,13030.71
+101108,Shazwani,Zainul,Female,Malaysia,1983-07-08,2024-03-15,Sales,Sales Manager,Surabaya,14801.95
+101109,Sarimah,Tajuddin,Female,Malaysia,1972-08-31,2023-07-22,Safety,Safety Executive,Surabaya,4654.02
+101110,Syafira,Syed Mohammed Jalal,Female,Malaysia,1977-02-13,2019-10-27,Finance,Finance Manager,Kuala Lumpur,13896.74
+101111,Hani,Ahmad,Female,Malaysia,1964-08-10,2020-04-12,Engineering,Engineering Manager,Surabaya,17188.48
+101112,Amira,Zaman,Female,Malaysia,1991-07-26,2023-01-03,Site Management,Site Management Analyst,Surabaya,10384.76
+101113,Sofiya,Naim,Female,Malaysia,1979-04-20,2024-01-02,Data Analysis,Data Analysis Manager,Senai,17752.7
+101114,Amani,Amir,Female,Malaysia,1968-08-21,2021-08-23,Safety,Safety Analyst,Kuala Lumpur,10579.5
+101115,Amirah,Rizki,Female,Malaysia,1976-05-20,2023-07-17,Site Management,Site Management Manager,Kulim,16947.84
+101116,Laila,Zaki,Female,Malaysia,1990-12-18,2023-03-14,Engineering,Engineering Manager,Kulim,15094.04
+101117,Wati,Khairul,Female,Malaysia,1989-05-25,2020-12-05,Data Analysis,Data Analysis Analyst,Kuala Lumpur,8827.88
+101118,Qistina,Ahmad,Female,Malaysia,1978-11-27,2024-03-19,Information Technology,Information Technology Engineer,Senai,12009.17
+101119,Wati,Roslan,Female,Malaysia,1990-03-02,2023-06-24,Data Analysis,Data Analysis Manager,Kulim,17559.9
+101120,Puteh,Naim,Female,Malaysia,1968-10-23,2022-02-16,Executive Management,Executive Management Executive,Kulim,17918.5
+101121,Zehra,Safwan,Female,Malaysia,1987-05-17,2021-09-30,Safety,Safety Executive,Senai,6033.73
+101122,Safira,Rudi,Female,Malaysia,1981-04-20,2022-10-03,Safety,Safety Engineer,Kuala Lumpur,6372.77
+101123,Jannah,Khairi,Female,Malaysia,1990-10-28,2020-09-29,Executive Management,Executive Management Manager,Senai,19264.28
+101124,Wani,Khairul,Female,Malaysia,1972-05-26,2020-03-16,Sales,Sales Executive,Kuala Lumpur,7327.26
+101125,Robiah,Mazlan,Female,Malaysia,1993-06-12,2024-04-25,Engineering,Engineering Analyst,Kulim,5483.5
+101126,Qila Suhaila,Mazlan,Female,Indonesia,1985-05-19,2020-11-09,Sales,Sales Executive,Surabaya,12224.01
+101127,Elisha,Zaki,Female,Malaysia,1991-08-06,2019-11-08,Site Management,Site Management Engineer,Kuala Lumpur,7141.98
+101128,Tiara,Salim,Female,Malaysia,1992-02-07,2024-01-17,Data Analysis,Data Analysis Analyst,Senai,9179.32
+101129,Nurul,Tohir,Female,Indonesia,1993-06-27,2022-05-03,Human Resource,HR Engineer,Surabaya,9809.74
+101130,Farisha,Pasha,Female,Indonesia,2001-02-24,2023-06-15,Information Technology,Information Technology Analyst,Surabaya,7560.21
+101131,Iman,Malik,Female,Indonesia,1980-11-11,2023-09-04,Safety,Safety Manager,Surabaya,17974.88
+101132,Veeradena,Munir,Female,Malaysia,1985-01-21,2024-05-22,Information Technology,Information Technology Analyst,Senai,5070.64
+101133,Puspa Ratnasari,Rizal,Female,Indonesia,1984-02-28,2021-02-19,Sales,Sales Executive,Surabaya,10989.93
+101134,Damia,Firdaus,Female,Indonesia,1981-02-24,2023-09-24,Safety,Safety Manager,Surabaya,17648.59
+101135,Ummi,Omar,Female,Indonesia,1995-09-16,2022-10-07,Engineering,Engineering Executive,Surabaya,6883.26
+101136,Syarifah,Ahmad,Female,Malaysia,1980-08-17,2022-01-09,Engineering,Engineering Manager,Senai,16079.58
+101137,Zalwani,Johan,Female,Malaysia,1989-02-28,2022-10-30,Executive Management,Executive Management Manager,Senai,22741.84
+101138,Tasha,Malik,Female,Malaysia,1995-06-02,2021-10-22,Site Management,Site Management Executive,Kulim,8099.79
+101139,Mira Filzah,Badri,Female,Malaysia,2001-05-03,2024-07-07,Engineering,Engineering Manager,Kuala Lumpur,13958.7
+101140,Alisha,Rizam,Female,Indonesia,1994-02-12,2023-03-04,Site Support,Site Support Engineer,Surabaya,3963.08
+101141,Tati Suriati,Zainul,Female,Malaysia,1984-04-15,2022-09-14,Data Analysis,Data Analysis Executive,Kulim,6676.31
+101142,Elisha,Mizan,Female,Indonesia,1967-03-26,2024-02-16,Site Support,Site Support Analyst,Surabaya,12853.84
+101143,Hanis,Shahin,Female,Malaysia,1967-03-31,2022-12-17,Data Analysis,Data Analysis Executive,Kulim,6858.51
+101144,Nuraina,Rizam,Female,Malaysia,2005-06-20,2020-10-29,Site Support,Site Support Analyst,Kulim,8692.09
+101145,Elina,Idris,Female,Malaysia,1991-08-22,2020-12-17,Safety,Safety Manager,Kulim,16827.77
+101146,Thalia,Rahman,Female,Malaysia,1965-12-12,2024-08-02,Information Technology,Information Technology Analyst,Kulim,5419.88
+101147,Yara,Firas,Female,Malaysia,1976-08-28,2021-03-16,Safety,Safety Manager,Senai,14067.74
+101148,Veeradena,Salim,Female,Malaysia,1977-05-20,2024-09-20,Executive Management,Executive Management Analyst,Senai,22726.74
+101149,Khairunnisa,Firas,Female,Malaysia,2001-04-16,2020-09-26,Sales,Sales Analyst,Kuala Lumpur,10348.74
+101150,Tiara,Khairi,Female,Malaysia,1965-11-02,2022-09-29,Sales,Sales Executive,Kuala Lumpur,12715.99
+101151,Qila Suhaila,Hisham,Female,Malaysia,1965-09-26,2020-03-24,Human Resource,HR Executive,Senai,10043.58
+101152,Alia,Kamal,Female,Malaysia,1977-10-31,2020-08-28,Finance,Finance Engineer,Kuala Lumpur,10094.24
+101153,Nuraina,Zaman,Female,Malaysia,1998-03-29,2024-05-01,Site Support,Site Support Executive,Surabaya,4174.47
+101154,Kamila,Zahir,Female,Malaysia,1980-01-18,2023-07-07,Information Technology,Information Technology Executive,Kulim,4389.99
+101155,Elina,Wafi,Female,Indonesia,1980-01-28,2023-09-28,Executive Management,Executive Management Manager,Surabaya,23223.83
+101156,Sarina,Kamal,Female,Malaysia,1975-12-18,2023-02-21,Information Technology,Information Technology Executive,Senai,5405.84
+101157,Dinesh ,Sivasubramaniam,Male,Malaysia,1975-08-23,2019-10-29,Site Management,Site Management Engineer,Senai,10862.99
+101158,Ravi Kumar ,Sivasubramaniam,Male,Malaysia,1987-07-30,2023-09-06,Executive Management,Executive Management Analyst,Senai,19403.31
+101159,Rajesh Reddy ,Balakrishnan,Male,Malaysia,1987-11-22,2024-01-14,Site Management,Site Management Executive,Kuala Lumpur,9921.18
+101160,Balaji ,Ramasamy,Male,Malaysia,1987-10-20,2024-03-18,Data Analysis,Data Analysis Executive,Kuala Lumpur,4026.16
+101161,Karthik ,Vellayan,Male,Malaysia,1987-12-02,2021-11-08,Safety,Safety Manager,Surabaya,14962.33
+101162,Harish ,Arumugam,Male,Malaysia,1978-08-03,2020-05-15,Data Analysis,Data Analysis Manager,Senai,14568.2
+101163,Harish ,Ramalingam,Male,Malaysia,1990-04-06,2023-07-23,Site Support,Site Support Analyst,Senai,8534.03
+101164,Surendran ,Rajesh,Male,Malaysia,2005-03-08,2024-04-19,Safety,Safety Analyst,Kuala Lumpur,5087.81
+101165,Uthaya ,Venkatesan,Male,Malaysia,1983-06-28,2021-07-11,Sales,Sales Engineer,Senai,7459.46
+101166,Ajith ,Sundararajan,Female,Malaysia,1973-11-25,2020-12-14,Site Management,Site Management Engineer,Surabaya,3683.84
+101167,Thamil Selvan ,Rajendran,Male,Malaysia,1974-02-08,2021-07-22,Data Analysis,Data Analysis Engineer,Kuala Lumpur,12894.58
+101168,Suresh ,Murugan,Male,Malaysia,1975-07-16,2022-09-06,Executive Management,Executive Management Manager,Kuala Lumpur,20262.26
+101169,Balaji ,Thirunavukarasu,Male,Malaysia,2005-04-13,2020-01-20,Safety,Safety Engineer,Kulim,5278.29
+101170,Rajesh Reddy ,Ramalingam,Male,Malaysia,1993-03-02,2021-02-02,Data Analysis,Data Analysis Engineer,Surabaya,12955.72
+101171,Prakash ,Palani,Female,Malaysia,1991-08-13,2022-01-28,Sales,Sales Analyst,Kulim,6463.46
+101172,Aiyappan ,Balakrishnan,Male,Malaysia,1981-11-30,2024-09-02,Finance,Finance Engineer,Surabaya,10051.34
+101173,Prakash ,Subash,Male,Malaysia,1995-09-07,2020-01-04,Sales,Sales Executive,Senai,10407.98
+101174,Mahesh ,Venkatesan,Male,Malaysia,1966-01-18,2022-10-22,Sales,Sales Manager,Senai,13085.11
+101175,Nadarajah ,Jayakumar,Female,Malaysia,1968-07-31,2024-01-04,Human Resource,HR Manager,Kulim,16606.01
+101176,Ajith ,Vellayan,Male,Malaysia,1993-02-07,2023-07-22,Engineering,Engineering Engineer,Kuala Lumpur,4700.81
+101177,Surendran ,Marimuthu,Male,Malaysia,1992-03-25,2021-10-14,Finance,Finance Analyst,Kuala Lumpur,9906.86
+101178,Ramesh ,Thangavelu,Male,Malaysia,2005-03-07,2022-05-04,Data Analysis,Data Analysis Manager,Kuala Lumpur,14328.7
+101179,Kumaravel ,Narasimhan,Male,Malaysia,1986-05-29,2020-01-28,Site Support,Site Support Manager,Kuala Lumpur,16732.41
+101180,Dinesh ,Palanisamy,Male,Malaysia,1984-04-02,2022-11-25,Sales,Sales Manager,Surabaya,17062.6
+101181,Uthaya ,Murugan,Male,Malaysia,1965-05-24,2020-03-24,Executive Management,Executive Management Executive,Senai,23909.6
+101182,Anand ,Vellayan,Male,Malaysia,1983-10-26,2019-12-16,Executive Management,Executive Management Engineer,Kuala Lumpur,19734.69
+101183,Ravi Kumar ,Ramasamy,Male,Malaysia,2004-09-27,2023-11-17,Executive Management,Executive Management Manager,Senai,17747.0
+101184,Surendran ,Kanna,Male,Malaysia,1969-06-28,2023-03-22,Site Support,Site Support Manager,Kuala Lumpur,16585.09
+101185,Praveen ,Govindasamy,Male,Malaysia,2006-05-17,2024-08-21,Information Technology,Information Technology Analyst,Surabaya,7749.46
+101186,Prem Kumar ,Kanna,Male,Malaysia,2000-09-02,2023-08-19,Sales,Sales Engineer,Kuala Lumpur,11681.0
+101187,Surendran ,Marimuthu,Male,Malaysia,2006-03-03,2022-10-10,Site Management,Site Management Engineer,Surabaya,8175.7
+101188,Mahesh ,Subash,Male,Malaysia,1992-03-11,2023-05-09,Sales,Sales Executive,Senai,13202.51
+101189,Nadarajah ,Kanna,Female,Malaysia,1991-09-24,2023-10-08,Site Support,Site Support Engineer,Kulim,5694.37
+101190,Anand ,Ramachandran,Male,Malaysia,1969-12-20,2024-07-29,Executive Management,Executive Management Analyst,Kuala Lumpur,24722.74
+101191,Arjun ,Narayanan,Male,Malaysia,1993-12-18,2020-01-19,Engineering,Engineering Manager,Senai,13953.67
+101192,Santhosh ,Thirunavukarasu,Male,Malaysia,2001-08-19,2023-04-19,Information Technology,Information Technology Manager,Senai,13811.33
+101193,Vinay ,Sundararajan,Male,Malaysia,2003-11-14,2024-02-14,Sales,Sales Engineer,Surabaya,8185.51
+101194,Ram ,Dhanapal,Male,Malaysia,1990-07-03,2024-04-24,Human Resource,HR Manager,Kuala Lumpur,15292.93
+101195,Praveen ,Ramasamy,Male,Malaysia,1995-01-20,2024-02-04,Engineering,Engineering Analyst,Kulim,10315.99
+101196,Senthil ,Arumugam,Female,Malaysia,1987-10-06,2023-01-21,Information Technology,Information Technology Analyst,Kulim,12955.86
+101197,Rajendran ,Sivasubramaniam,Male,Malaysia,1975-07-17,2022-07-15,Site Management,Site Management Analyst,Surabaya,8938.28
+101198,Surendran ,Govindasamy,Male,Malaysia,1998-04-09,2024-08-28,Site Support,Site Support Manager,Kuala Lumpur,17835.63
+101199,Prakash ,Marimuthu,Male,Malaysia,1983-06-17,2023-05-23,Information Technology,Information Technology Engineer,Kuala Lumpur,9350.36
+101200,Rajendran ,Muthusamy,Male,Malaysia,1976-12-09,2022-02-24,Finance,Finance Analyst,Senai,5862.69
+101201,Arjun ,Muthusamy,Male,Malaysia,1999-11-18,2020-04-09,Executive Management,Executive Management Executive,Kuala Lumpur,19805.75
+101202,Vikas ,Govindasamy,Female,Malaysia,1985-12-02,2021-09-28,Human Resource,HR Executive,Kulim,7693.4
+101203,Ramesh ,Palani,Male,Malaysia,1994-11-19,2021-08-10,Safety,Safety Executive,Kulim,12863.22
+101204,Balaji ,Muthusamy,Male,Malaysia,1994-04-21,2023-12-21,Human Resource,HR Engineer,Senai,4900.38
+101205,Vignesh ,Sivasubramaniam,Female,Malaysia,1997-08-02,2023-06-21,Safety,Safety Engineer,Kulim,9498.8
+101206,Ravi Kumar ,Jayakumar,Male,Malaysia,1984-10-22,2021-08-09,Safety,Safety Engineer,Kulim,4136.61
+101207,Mohan ,Palani,Male,Malaysia,1994-11-12,2020-04-26,Site Management,Site Management Analyst,Kulim,10555.24
+101208,Santhosh ,Jayakumar,Male,Malaysia,1975-01-01,2023-01-20,Data Analysis,Data Analysis Executive,Senai,6623.58
+101209,Prakash ,Balakrishnan,Male,Malaysia,2001-07-07,2023-06-06,Site Support,Site Support Manager,Senai,14613.69
+101210,Uthaya ,Venkatesan,Male,Malaysia,1965-12-25,2023-06-19,Site Support,Site Support Engineer,Surabaya,12474.74
+101211,Sathish ,Dhanapal,Male,Malaysia,1988-09-19,2022-10-20,Human Resource,HR Executive,Surabaya,11808.98
+101212,Praveen ,Ganesan,Male,Malaysia,1980-06-05,2021-07-21,Data Analysis,Data Analysis Analyst,Kuala Lumpur,11339.87
+101213,Jagan ,Subash,Male,Malaysia,1995-08-05,2024-01-23,Executive Management,Executive Management Analyst,Kuala Lumpur,19038.75
+101214,Kannan ,Dhanapal,Male,Malaysia,1980-03-30,2020-09-22,Engineering,Engineering Engineer,Surabaya,5913.71
+101215,Senthil ,Vellayan,Male,Malaysia,1968-05-12,2024-08-31,Data Analysis,Data Analysis Engineer,Senai,5259.84
+101216,Vicnesswary,Ramachandran,Female,Malaysia,2005-09-05,2024-04-03,Finance,Finance Analyst,Kulim,6673.83
+101217,Vinay ,Chandra,Male,Malaysia,1994-07-03,2021-02-07,Site Management,Site Management Manager,Surabaya,15508.42
+101218,Sathish ,Ramachandran,Male,Malaysia,1969-10-22,2020-05-14,Human Resource,HR Manager,Surabaya,15791.33
+101219,Sathish ,Ramu,Male,Malaysia,1996-06-23,2021-10-25,Data Analysis,Data Analysis Manager,Surabaya,17569.17
+101220,Ajith ,Palani,Female,Malaysia,1996-10-29,2023-08-17,Executive Management,Executive Management Executive,Surabaya,25069.74
+101221,Anand ,Marimuthu,Male,Malaysia,1997-12-17,2022-10-24,Data Analysis,Data Analysis Manager,Kuala Lumpur,17323.72
+101222,Ravi Kumar ,Kanna,Male,Malaysia,1990-01-20,2020-11-12,Site Management,Site Management Analyst,Kulim,10100.91
+101223,Prakash ,Arumugam,Male,Malaysia,2001-04-16,2020-01-11,Engineering,Engineering Executive,Kulim,12113.53
+101224,Prakash ,Somasundaram,Male,Malaysia,1989-02-03,2020-02-28,Human Resource,HR Executive,Surabaya,9137.5
+101225,Vinay ,Murugan,Male,Malaysia,1981-02-27,2021-10-09,Executive Management,Executive Management Engineer,Senai,25046.49
+101226,Vinay ,Arumugam,Male,Malaysia,1986-11-21,2020-10-06,Engineering,Engineering Analyst,Kuala Lumpur,12875.38
+101227,Senthil ,Arumugam,Male,Malaysia,1969-06-04,2021-09-07,Safety,Safety Executive,Surabaya,4561.22
+101228,Ganesh Pillai ,Ramasamy,Male,Malaysia,1968-07-30,2019-12-15,Site Management,Site Management Engineer,Surabaya,9508.85
+101229,Surya ,Ramu,Female,Malaysia,1990-01-31,2021-08-03,Sales,Sales Manager,Kuala Lumpur,14863.82
+101230,Rishi ,Govindasamy,Female,Malaysia,1985-01-17,2021-08-02,Site Support,Site Support Executive,Kuala Lumpur,4845.22
+101231,Vinod ,Ramu,Male,Malaysia,2005-03-26,2021-03-16,Sales,Sales Engineer,Surabaya,10625.24
+101232,Aiyappan ,Dhanapal,Male,Malaysia,1990-12-17,2023-04-02,Site Support,Site Support Executive,Surabaya,7951.7
+101233,Mohan ,Thangavelu,Male,Malaysia,1971-08-31,2020-01-09,Sales,Sales Engineer,Senai,11567.75
+101234,Suresh ,Balasubramanian,Male,Malaysia,1988-01-26,2019-10-18,Site Management,Site Management Manager,Kuala Lumpur,15372.99
+101235,Ganesh Pillai ,Saravanan,Male,Malaysia,1966-05-23,2021-05-06,Executive Management,Executive Management Analyst,Kuala Lumpur,21971.93
+101236,Uthaya ,Saravanan,Male,Malaysia,1979-12-11,2021-09-16,Sales,Sales Executive,Surabaya,5606.38
+101237,Rajesh Reddy ,Chandra,Male,Malaysia,1965-04-20,2022-08-01,Engineering,Engineering Analyst,Surabaya,7611.54
+101238,Senthil ,Muthusamy,Male,Malaysia,1981-01-26,2020-09-29,Human Resource,HR Manager,Senai,16101.15
+101239,Nadarajah ,Krishnan,Male,Malaysia,1984-07-20,2021-12-29,Site Support,Site Support Manager,Kulim,15157.22
+101240,Vinod ,Somasundaram,Male,Malaysia,1989-12-27,2020-09-19,Safety,Safety Executive,Surabaya,10607.66
+101241,Senthil ,Ramalingam,Male,Malaysia,1996-01-21,2021-01-25,Executive Management,Executive Management Manager,Surabaya,22748.03
+101242,Vinay ,Dhanapal,Male,Malaysia,1995-03-14,2020-02-23,Engineering,Engineering Executive,Kuala Lumpur,3766.25
+101243,Kumaravel ,Subramaniam,Male,Malaysia,1989-10-26,2020-05-08,Safety,Safety Executive,Senai,10215.73
+101244,Aiyappan ,Narasimhan,Male,Malaysia,2001-04-10,2021-02-08,Data Analysis,Data Analysis Engineer,Surabaya,7724.16
+101245,Vikas ,Narasimhan,Male,Malaysia,1995-09-20,2022-03-28,Site Support,Site Support Engineer,Surabaya,12680.52
+101246,Karthik ,Nadarajah,Male,Malaysia,1989-11-06,2020-12-19,Finance,Finance Executive,Kuala Lumpur,6693.22
+101247,Vinod ,Subash,Male,Malaysia,1985-07-08,2020-01-09,Data Analysis,Data Analysis Manager,Kulim,13748.26
+101248,Ramesh ,Ponnusamy,Male,Malaysia,1998-07-07,2022-01-12,Engineering,Engineering Executive,Senai,9615.8
+101249,Karthik ,Kuppusamy,Male,Malaysia,1976-02-08,2023-04-06,Safety,Safety Analyst,Surabaya,11018.66
+101250,Manikandan ,Subramaniam,Male,Malaysia,1970-11-28,2023-05-31,Site Support,Site Support Manager,Kuala Lumpur,16097.67
+101251,Kumaravel ,Kalyanasundaram,Male,Malaysia,1994-02-28,2022-04-21,Site Support,Site Support Executive,Kulim,8462.14
+101252,Karthik ,Saravanan,Male,Malaysia,1983-12-12,2022-03-10,Data Analysis,Data Analysis Executive,Senai,12482.63
+101253,Surya ,Vellayan,Male,Malaysia,1977-08-17,2022-06-13,Human Resource,HR Manager,Senai,13041.65
+101254,Praveen ,Ramu,Male,Malaysia,2004-02-25,2021-09-18,Site Support,Site Support Executive,Surabaya,12839.36
+101255,Sharmila,Govindasamy,Female,Malaysia,1981-06-24,2020-11-22,Site Management,Site Management Manager,Kulim,17811.44
+101256,Balasubramaniam,Krishnan,Male,Malaysia,1984-05-22,2022-04-04,Site Support,Site Support Executive,Kulim,11168.71
+101257,Nadarajah ,Somasundaram,Female,Malaysia,1990-09-14,2024-10-16,Information Technology,Information Technology Engineer,Senai,4756.57
+101258,Prem Kumar ,Somasundaram,Male,Malaysia,2001-02-12,2022-02-28,Sales,Sales Engineer,Surabaya,4109.84
+101259,Vikas ,Sivasubramaniam,Female,Malaysia,1998-10-21,2020-07-12,Site Support,Site Support Engineer,Surabaya,13499.68
+101260,Ashiwara,Kanna,Female,Malaysia,1990-12-23,2023-09-09,Finance,Finance Engineer,Kulim,10491.51
+101261,Vikas ,Sundararajan,Female,Malaysia,1984-05-11,2021-12-11,Site Support,Site Support Executive,Kuala Lumpur,13419.65
+101262,Kumaravel ,Narasimhan,Male,Malaysia,1974-10-25,2023-02-09,Information Technology,Information Technology Engineer,Kulim,8481.36
+101263,Uthaya ,Ramachandran,Female,Malaysia,1974-03-14,2021-01-01,Information Technology,Information Technology Manager,Senai,16229.71
+101264,Manikandan ,Ponnusamy,Male,Malaysia,1972-07-02,2019-12-25,Site Management,Site Management Manager,Surabaya,15913.06
+101265,Suresh ,Jayakumar,Male,Malaysia,1989-01-05,2023-08-14,Finance,Finance Executive,Kulim,12927.4
+101266,Ganesh Pillai ,Ramachandran,Male,Malaysia,2002-12-16,2021-09-21,Human Resource,HR Analyst,Kulim,4351.41
+101267,Praveen ,Sundararajan,Male,Malaysia,1980-02-24,2021-11-20,Site Support,Site Support Analyst,Surabaya,9097.13
+101268,Arvind Singh ,Venkatesan,Female,Malaysia,1971-11-27,2024-04-25,Safety,Safety Analyst,Senai,11857.35
+101269,Raghavan ,Ramalingam,Male,Malaysia,1966-02-21,2022-10-26,Sales,Sales Analyst,Kuala Lumpur,3912.3
+101270,Nadarajah ,Chandra,Male,Malaysia,1963-12-29,2022-10-10,Information Technology,Information Technology Analyst,Senai,12682.06
+101271,Harish ,Muthusamy,Male,Malaysia,1980-11-10,2023-08-31,Information Technology,Information Technology Engineer,Kulim,12075.02
+101272,Kannan ,Saravanan,Male,Malaysia,1997-10-19,2020-02-27,Site Management,Site Management Analyst,Surabaya,4095.78
+101273,Vignesh ,Ramasamy,Male,Malaysia,2006-08-21,2024-09-23,Data Analysis,Data Analysis Executive,Kulim,12764.43
+101274,Surya ,Chandra,Female,Malaysia,1981-05-03,2024-05-30,Site Support,Site Support Executive,Surabaya,4134.57
+101275,Manikandan ,Murugan,Male,Malaysia,1994-12-06,2020-09-17,Engineering,Engineering Analyst,Kuala Lumpur,11333.52
+101276,Nadarajah ,Ramasamy,Male,Malaysia,1996-04-08,2019-10-21,Safety,Safety Manager,Kuala Lumpur,17835.99
+101277,Harish ,Kanna,Male,Malaysia,2001-01-24,2023-08-30,Site Support,Site Support Executive,Kulim,10440.57
+101278,Suresh ,Sivasubramaniam,Male,Malaysia,1984-04-21,2023-04-20,Data Analysis,Data Analysis Engineer,Senai,9892.85
+101279,Ramesh ,Muthusamy,Male,Malaysia,1971-09-06,2022-06-11,Finance,Finance Executive,Kulim,6244.47
+101280,Balaji ,Rajendran,Female,Malaysia,1998-07-30,2023-11-19,Safety,Safety Engineer,Kuala Lumpur,12700.39
+101281,Surya ,Thirunavukarasu,Female,Malaysia,2004-01-02,2021-07-07,Information Technology,Information Technology Analyst,Kuala Lumpur,10390.16
+101282,Thamil Selvan ,Saravanan,Male,Malaysia,1997-08-14,2022-03-30,Data Analysis,Data Analysis Executive,Senai,7780.97
+101283,Surya ,Ramachandran,Female,Malaysia,1975-09-17,2022-12-26,Site Management,Site Management Engineer,Surabaya,4813.82
+101284,Karthik ,Marimuthu,Female,Malaysia,2001-11-11,2021-10-20,Site Management,Site Management Manager,Surabaya,13941.88
+101285,Vikas ,Narasimhan,Female,Malaysia,1984-10-12,2021-03-02,Executive Management,Executive Management Executive,Kuala Lumpur,22921.57
+101286,Raghavan ,Sivasubramaniam,Male,Malaysia,2003-04-29,2021-05-29,Data Analysis,Data Analysis Executive,Kuala Lumpur,13037.16
+101287,Ravi Kumar ,Govindasamy,Male,Malaysia,2005-06-02,2022-07-24,Finance,Finance Engineer,Surabaya,10859.07
+101288,Harish ,Balakrishnan,Male,Malaysia,1988-02-22,2020-03-13,Site Support,Site Support Manager,Surabaya,15234.13
+101289,Suresh ,Balakrishnan,Male,Malaysia,1990-06-19,2021-08-19,Finance,Finance Analyst,Kulim,10148.47
+101290,Thamil Selvan ,Murugan,Male,Malaysia,1993-01-12,2021-03-20,Site Support,Site Support Engineer,Kulim,11137.97
+101291,Jagan ,Narayanan,Male,Malaysia,1993-12-10,2022-12-27,Data Analysis,Data Analysis Executive,Senai,8385.29
+101292,Vinay ,Dhanapal,Male,Malaysia,1972-08-06,2023-06-08,Site Management,Site Management Manager,Kulim,13157.01
+101293,Suresh ,Palanisamy,Male,Malaysia,1965-07-26,2020-12-20,Finance,Finance Engineer,Kulim,13031.97
+101294,Vijaya,Subash,Male,Malaysia,1979-03-28,2024-09-24,Finance,Finance Executive,Kulim,9231.65
+101295,Manikandan ,Murugan,Male,Malaysia,1972-08-21,2023-03-30,Engineering,Engineering Manager,Kuala Lumpur,17653.79
+101296,Kumaravel ,Narasimhan,Male,Malaysia,1970-06-20,2023-08-03,Site Management,Site Management Analyst,Senai,5723.1
+101297,Rishi ,Venkatesan,Female,Malaysia,2000-07-12,2022-10-25,Human Resource,HR Analyst,Senai,3762.53
+101298,Sathish ,Nadarajah,Male,Malaysia,1977-08-27,2023-11-14,Safety,Safety Manager,Kuala Lumpur,15862.25
+101299,Kannan ,Chandra,Male,Malaysia,1997-07-01,2024-04-11,Site Support,Site Support Engineer,Surabaya,10595.67
+101300,Mohan ,Venkatesan,Male,Malaysia,1986-10-24,2024-04-20,Information Technology,Information Technology Engineer,Senai,6930.38
+101301,Manikandan ,Narasimhan,Male,Malaysia,1988-01-14,2020-10-04,Site Management,Site Management Engineer,Kuala Lumpur,6140.92
+101302,Ajith ,Jayakumar,Male,Malaysia,1972-07-12,2021-08-07,Safety,Safety Engineer,Surabaya,3914.88
+101303,Senthil ,Subash,Male,Malaysia,1978-05-14,2023-03-18,Safety,Safety Engineer,Senai,11278.02
+101304,Praveen ,Narasimhan,Male,Malaysia,1989-11-23,2024-01-03,Site Support,Site Support Manager,Kuala Lumpur,15947.94
+101305,Mahesh ,Subramaniam,Male,Malaysia,1980-03-29,2020-09-15,Information Technology,Information Technology Executive,Kulim,7541.29
+101306,Vinay ,Chandra,Male,Malaysia,1991-05-18,2019-12-06,Sales,Sales Engineer,Kulim,3960.72
+101307,Hong Joon,Tan,Female,Malaysia,1963-12-23,2023-05-11,Safety,Safety Executive,Kuala Lumpur,7537.54
+101308,Wei Cheng,Low,Male,Malaysia,1987-12-05,2023-04-11,Executive Management,Executive Management Analyst,Kulim,17796.37
+101309,Sze Wei,Chua,Female,Malaysia,1991-12-30,2023-05-14,Site Management,Site Management Analyst,Surabaya,13427.08
+101310,Choon Mei,Lim,Female,Malaysia,1978-01-07,2024-08-14,Site Management,Site Management Manager,Senai,13830.06
+101311,Li Ping,Lim,Female,Malaysia,1968-03-10,2024-01-10,Sales,Sales Analyst,Senai,12903.69
+101312,Zhi Wei,Wong,Female,Malaysia,1983-11-05,2023-02-27,Engineering,Engineering Analyst,Surabaya,12114.51
+101313,Yew Jin,Lim,Female,Malaysia,1988-01-30,2023-05-04,Safety,Safety Manager,Senai,16117.1
+101314,Li Ping,Ong,Female,Malaysia,1984-09-02,2021-11-24,Site Management,Site Management Executive,Kuala Lumpur,5576.32
+101315,Chee Seng,Sim,Female,Malaysia,1988-11-16,2024-08-30,Sales,Sales Engineer,Surabaya,11551.71
+101316,Yew Jin,Tan,Female,Malaysia,1990-12-03,2021-06-05,Engineering,Engineering Analyst,Kuala Lumpur,11552.81
+101317,Ai Yu,Leong,Female,Malaysia,1993-06-21,2023-03-14,Sales,Sales Analyst,Surabaya,10890.02
+101318,Yi Ting,Ong,Female,Malaysia,1980-12-31,2021-05-13,Engineering,Engineering Manager,Kulim,13138.77
+101319,Xin Fang,Low,Male,Malaysia,1998-09-10,2020-06-21,Engineering,Engineering Executive,Surabaya,5755.47
+101320,Mei Yan,Chai,Female,Malaysia,1965-10-19,2023-09-27,Data Analysis,Data Analysis Analyst,Surabaya,10565.39
+101321,Xin Yi,Lim,Male,Malaysia,1994-04-14,2020-10-09,Human Resource,HR Analyst,Senai,10996.2
+101322,Keng Yoon,Sim,Male,Malaysia,1974-07-30,2024-07-25,Information Technology,Information Technology Engineer,Kulim,8482.37
+101323,Mei Yan,Lee,Female,Malaysia,1971-10-23,2024-07-15,Data Analysis,Data Analysis Manager,Kuala Lumpur,14827.3
+101324,Cheng Hong,Chen,Male,Malaysia,1992-03-15,2024-10-09,Finance,Finance Engineer,Surabaya,12095.67
+101325,Kah Mun,Chen,Male,Malaysia,1999-09-21,2020-01-19,Sales,Sales Engineer,Senai,11804.65
+101326,Joo Ling,Lee,Male,Malaysia,1984-01-13,2021-12-03,Information Technology,Information Technology Executive,Surabaya,10748.77
+101327,Xin Yi,Chua,Female,Malaysia,1963-10-18,2021-01-30,Data Analysis,Data Analysis Manager,Kulim,16496.54
+101328,Chee Seng,Chen,Male,Malaysia,1986-12-15,2023-02-10,Information Technology,Information Technology Engineer,Surabaya,11748.84
+101329,Jin Hao,Goh,Female,Malaysia,1965-08-23,2024-06-27,Sales,Sales Engineer,Kuala Lumpur,5439.06
+101330,Kah Mun,Wong,Male,Malaysia,1984-03-18,2019-12-28,Information Technology,Information Technology Executive,Senai,6852.26
+101331,Ai Yu,Chai,Female,Malaysia,1974-12-14,2022-08-12,Engineering,Engineering Executive,Kuala Lumpur,10509.18
+101332,Mei Yan,Lau,Female,Malaysia,1970-09-14,2022-08-30,Site Support,Site Support Engineer,Senai,11504.91
+101333,Hui Shan,Yeo,Female,Malaysia,1978-02-17,2022-09-25,Engineering,Engineering Analyst,Senai,7511.42
+101334,Ai Ling,Ng,Female,Malaysia,1991-09-09,2022-04-13,Data Analysis,Data Analysis Analyst,Senai,13347.37
+101335,Shi Min,Lee,Female,Malaysia,1986-11-18,2019-11-19,Site Support,Site Support Manager,Kuala Lumpur,14425.58
+101336,Soon Heng,Lim,Female,Malaysia,1981-09-11,2020-07-25,Finance,Finance Executive,Kulim,8632.35
+101337,Tze Yong,Chai,Male,Malaysia,1981-10-29,2024-08-29,Safety,Safety Analyst,Kuala Lumpur,13085.01
+101338,Pei Ying,Chen,Female,Malaysia,1986-01-17,2023-01-25,Site Management,Site Management Engineer,Kulim,3838.28
+101339,Wan Yi,Sim,Female,Malaysia,1998-04-28,2023-09-28,Engineering,Engineering Engineer,Senai,6637.9
+101340,Pui Yung,Tan,Male,Malaysia,1980-07-22,2019-10-18,Human Resource,HR Manager,Surabaya,16966.81
+101341,Seng Chai,Chua,Female,Malaysia,1983-03-14,2023-01-28,Executive Management,Executive Management Executive,Kulim,25913.4
+101342,Ying Ying,Wong,Female,Malaysia,1963-11-05,2020-08-21,Human Resource,HR Manager,Senai,16029.56
+101343,Sook Ling,Chen,Female,Malaysia,1994-09-03,2023-01-02,Executive Management,Executive Management Analyst,Kuala Lumpur,23603.16
+101344,Wei Cheng,Ong,Male,Malaysia,1988-07-02,2021-03-25,Sales,Sales Manager,Kulim,16658.76
+101345,Hui Xin,Ng,Female,Malaysia,1974-07-08,2022-01-04,Data Analysis,Data Analysis Analyst,Senai,8819.03
+101346,Chee Seng,Chua,Male,Malaysia,1966-01-19,2021-11-09,Finance,Finance Analyst,Surabaya,4881.77
+101347,Hui Xin,Wong,Male,Malaysia,1973-07-23,2021-10-02,Executive Management,Executive Management Analyst,Kuala Lumpur,20174.55
+101348,Wan Yi,Lee,Female,Malaysia,2000-07-20,2022-03-06,Human Resource,HR Analyst,Surabaya,13038.92
+101349,Yat Seng,Lee,Male,Malaysia,2005-08-01,2020-12-10,Executive Management,Executive Management Executive,Kulim,17202.03
+101350,Hui Yi,Chua,Male,Malaysia,1995-04-01,2023-08-03,Finance,Finance Manager,Kuala Lumpur,14508.78
+101351,Keng Yoon,Leong,Male,Malaysia,1983-12-04,2022-11-16,Site Support,Site Support Executive,Senai,13360.61
+101352,Keng Boon,Goh,Male,Malaysia,1984-05-02,2023-06-06,Information Technology,Information Technology Executive,Surabaya,13477.08
+101353,Hui Xin,Tan,Female,Malaysia,1993-06-24,2024-01-26,Human Resource,HR Analyst,Surabaya,8291.21
+101354,Wei Cheng,Lau,Male,Malaysia,1986-10-23,2024-08-30,Finance,Finance Analyst,Kuala Lumpur,13073.87
+101355,Mei Yan,Lee,Male,Malaysia,2001-01-21,2024-09-23,Data Analysis,Data Analysis Manager,Kuala Lumpur,17068.58
+101356,Kah Mun,Lim,Female,Malaysia,1978-07-28,2020-10-18,Human Resource,HR Analyst,Kulim,10577.53
+101357,Yu Ling,Ong,Male,Malaysia,1974-10-27,2021-11-25,Safety,Safety Manager,Surabaya,15945.13
+101358,Wei Ying,Wong,Male,Malaysia,1973-04-15,2021-04-24,Sales,Sales Manager,Kulim,13367.11
+101359,Yi Ting,Low,Female,Malaysia,1980-11-15,2020-03-09,Sales,Sales Engineer,Senai,6000.35
+101360,Yew Jin,Tan,Male,Malaysia,1985-07-23,2024-04-16,Site Support,Site Support Engineer,Surabaya,12892.35
+101361,Sze Ling,Yeo,Female,Malaysia,1968-07-06,2023-05-24,Sales,Sales Analyst,Kuala Lumpur,8027.69
+101362,Wei Ying,Lim,Female,Malaysia,2006-07-16,2021-10-20,Safety,Safety Analyst,Kulim,8901.0
+101363,Heng Yew,Ong,Male,Malaysia,1991-06-08,2021-12-24,Site Support,Site Support Executive,Kuala Lumpur,7000.87
+101364,Zhi Liang,Lee,Male,Malaysia,1972-08-06,2020-01-05,Site Support,Site Support Executive,Surabaya,4522.36
+101365,Kim Siong,Tan,Female,Malaysia,1999-06-06,2023-02-16,Finance,Finance Engineer,Kulim,6296.04
+101366,Li Xian,Sim,Female,Malaysia,1995-08-31,2024-02-15,Information Technology,Information Technology Executive,Senai,12164.8
+101367,Ying Ying,Wong,Female,Malaysia,1975-09-01,2020-03-15,Executive Management,Executive Management Executive,Kuala Lumpur,23080.35
+101368,Shi Wei,Wong,Male,Malaysia,2000-08-15,2023-06-29,Executive Management,Executive Management Engineer,Surabaya,23239.37
+101369,Li Ling,Wong,Female,Malaysia,1964-05-09,2021-11-01,Engineering,Engineering Engineer,Kulim,6881.57
+101370,Zhi Liang,Lim,Male,Malaysia,1974-11-08,2021-11-03,Engineering,Engineering Analyst,Kulim,11648.87
+101371,Zhi Liang,Lim,Female,Malaysia,1985-06-13,2022-09-04,Sales,Sales Manager,Senai,14052.86
+101372,Yan Xiu,Wong,Male,Malaysia,2000-11-17,2023-12-22,Human Resource,HR Engineer,Kuala Lumpur,12181.55
+101373,Wei Kit,Lim,Male,Malaysia,1979-03-24,2023-06-26,Finance,Finance Manager,Senai,17937.83
+101374,Hui Shan,Tan,Female,Malaysia,1987-09-24,2023-07-10,Site Management,Site Management Executive,Senai,12952.21
+101375,Jin Yi,Tan,Female,Malaysia,1979-02-01,2020-07-17,Executive Management,Executive Management Executive,Senai,18413.06
+101376,Cheng Hong,Tan,Male,Malaysia,1979-07-17,2019-12-02,Finance,Finance Manager,Kuala Lumpur,13453.04
+101377,Li Ping,Tan,Female,Malaysia,2003-06-11,2020-05-11,Information Technology,Information Technology Analyst,Kulim,8506.53
+101378,Mei Yan,Lim,Female,Malaysia,1985-01-15,2021-06-05,Human Resource,HR Engineer,Kuala Lumpur,7873.97
+101379,Ying Ying,Ng,Female,Malaysia,1968-10-20,2020-09-06,Safety,Safety Analyst,Surabaya,9915.89
+101380,Keng Hock,Tan,Male,Malaysia,1984-07-04,2023-04-27,Data Analysis,Data Analysis Engineer,Senai,10312.42
+101381,Yu Ling,Sim,Female,Malaysia,1975-05-19,2024-08-26,Finance,Finance Analyst,Kulim,8002.45
+101382,Keng Liang,Chen,Male,Malaysia,1987-10-17,2021-08-04,Human Resource,HR Manager,Senai,15490.6
+101383,Zhi Liang,Lau,Female,Malaysia,1995-08-08,2024-01-13,Engineering,Engineering Analyst,Kulim,5096.85
+101384,Heng Yew,Wong,Male,Malaysia,1974-08-24,2022-04-13,Information Technology,Information Technology Analyst,Kuala Lumpur,3798.27
+101385,Pei Ying,Sim,Female,Malaysia,1966-12-25,2022-09-04,Information Technology,Information Technology Analyst,Surabaya,8216.8
+101386,Pui Yung,Lim,Female,Malaysia,2006-04-19,2023-01-11,Site Management,Site Management Manager,Kulim,14774.96
+101387,Shu Yi,Wong,Female,Malaysia,1999-05-11,2022-07-22,Human Resource,HR Executive,Kulim,9251.74
+101388,Mei Ling,Ong,Female,Malaysia,2002-05-08,2020-09-15,Information Technology,Information Technology Executive,Senai,9834.85
+101389,Huan Ying,Low,Female,Malaysia,1989-01-19,2022-11-16,Executive Management,Executive Management Executive,Surabaya,25958.31
+101390,Seng Chai,Wong,Male,Malaysia,1976-12-26,2021-09-22,Finance,Finance Engineer,Kulim,11463.77
+101391,Li Na,Lim,Female,Malaysia,1986-08-17,2020-08-29,Human Resource,HR Analyst,Senai,10933.86
+101392,Kah Mun,Lim,Male,Malaysia,1991-01-07,2023-04-12,Finance,Finance Manager,Surabaya,17462.36
+101393,Sze Ling,Goh,Female,Malaysia,1981-04-05,2022-03-04,Finance,Finance Analyst,Kuala Lumpur,7928.18
+101394,Wan Yi,Wong,Male,Malaysia,1986-09-25,2021-05-04,Finance,Finance Engineer,Kuala Lumpur,4095.2
+101395,Ying Ying,Goh,Female,Malaysia,1982-01-30,2021-01-15,Data Analysis,Data Analysis Analyst,Surabaya,12000.35
+101396,Jin Hao,Wong,Female,Malaysia,1968-11-29,2023-09-14,Finance,Finance Engineer,Kuala Lumpur,5378.16
+101397,Xin Yi,Wong,Male,Malaysia,1981-07-01,2021-01-29,Data Analysis,Data Analysis Engineer,Kuala Lumpur,3721.94
+101398,Koon Peng,Ng,Male,Malaysia,2000-10-04,2023-11-08,Human Resource,HR Engineer,Surabaya,5544.8
+101399,Pui Yung,Yeo,Female,Malaysia,1982-03-29,2020-06-11,Safety,Safety Engineer,Senai,4886.89
+101400,Wai Ching,Sim,Female,Malaysia,1965-06-21,2022-05-01,Sales,Sales Engineer,Surabaya,11132.74
+101401,Ying Ying,Ng,Female,Malaysia,1996-09-14,2021-09-06,Site Management,Site Management Manager,Surabaya,17562.95
+101402,Wei Ting,Chai,Female,Malaysia,1964-04-02,2023-08-18,Human Resource,HR Analyst,Senai,7915.01
+101403,Jia Wei,Tan,Male,Malaysia,1980-03-30,2024-07-28,Information Technology,Information Technology Manager,Kulim,17992.0
+101404,Xin Yi,Lim,Female,Malaysia,1968-12-10,2021-04-19,Safety,Safety Executive,Surabaya,8736.6
+101405,Jin Hao,Tan,Male,Malaysia,1973-01-18,2023-11-05,Sales,Sales Analyst,Senai,6072.23
+101406,Zhi Wei,Wong,Male,Malaysia,2001-06-22,2022-01-22,Data Analysis,Data Analysis Engineer,Kulim,8316.24
+101407,Donna,Ortiz,Female,Germany,1993-03-16,2024-06-27,Sales,Sales Manager,Kuala Lumpur,15450.51
+101408,Joseph,Garner,Female,Spain,1989-10-25,2021-11-27,Engineering,Engineering Manager,Kuala Lumpur,17579.2
+101409,Travis,Higgins,Male,Canada,1979-12-20,2022-01-25,Engineering,Engineering Engineer,Surabaya,11226.11
+101410,Gary,Mendoza,Male,Spain,1979-12-09,2022-01-26,Sales,Sales Manager,Surabaya,13874.94
+101411,William,Johnson,Female,Spain,2006-07-08,2019-11-19,Safety,Safety Engineer,Kuala Lumpur,10637.46
+101412,Natasha,Davis,Female,Poland,1984-06-08,2020-01-11,Safety,Safety Manager,Senai,15258.72
+101413,Jasmine,Richard,Female,Germany,2004-12-14,2021-11-30,Safety,Safety Engineer,Surabaya,5514.47
+101414,Kelly,Williams,Female,Poland,1997-04-29,2024-08-22,Engineering,Engineering Manager,Kuala Lumpur,15485.66
+101415,Lindsay,Thomas,Female,Australia,1991-05-23,2021-04-19,Safety,Safety Engineer,Senai,3880.89
+101416,Allison,Andrade,Female,Poland,1968-10-19,2022-01-13,Safety,Safety Manager,Kulim,15538.36
+101417,Chariya,Boonmee,Female,Thailand,1984-07-17,2022-11-12,Safety,Safety Manager,Kulim,15616.22
+101418,Pamela,Blackburn,Female,Germany,1992-08-07,2023-01-06,Sales,Sales Engineer,Senai,11381.25
+101419,Stacie,Fox,Female,Poland,2006-06-17,2021-05-26,Engineering,Engineering Manager,Senai,15186.97
+101420,Teresa,Bass,Female,Australia,2003-11-22,2022-06-02,Finance,Finance Manager,Kuala Lumpur,14746.58
+101421,Christopher,Martinez,Male,Vietnam,1970-08-10,2022-03-31,Site Support,Site Support Engineer,Senai,5886.39
+101422,Sara,Mcintyre,Female,Spain,1999-04-08,2019-12-02,Sales,Sales Engineer,Kulim,11046.2
+101423,Morgan,Briggs,Male,New Zealand,1972-01-05,2020-08-13,Human Resource,HR Manager,Senai,15731.27
+101424,Justin,Anderson,Male,Poland,2001-12-05,2022-04-13,Site Management,Site Management Engineer,Surabaya,13203.04
+101425,Amber,Vasquez,Female,Spain,2002-11-20,2024-07-20,Information Technology,Information Technology Manager,Senai,16416.96
+101426,Melissa,Camacho,Female,Canada,1979-12-07,2021-01-30,Safety,Safety Manager,Kuala Lumpur,17018.45
+101427,Stephanie,Goodwin,Female,Spain,2002-10-18,2024-04-08,Safety,Safety Engineer,Kulim,9170.35
+101428,Jonathan,Le,Male,Poland,1982-12-15,2024-01-27,Sales,Sales Manager,Kuala Lumpur,16872.95
+101429,Margaret,Gutierrez,Female,Indonesia,2005-03-08,2022-06-04,Safety,Safety Engineer,Surabaya,3777.7
+101430,Debra,Murillo,Female,Germany,1986-10-11,2024-06-04,Human Resource,HR Manager,Surabaya,14208.97
+101431,Melissa,Davis,Female,Germany,1978-07-04,2021-04-09,Site Support,Site Support Manager,Senai,13593.97
+101432,Sarah,Kirk,Female,Indonesia,1991-12-19,2020-10-13,Human Resource,HR Engineer,Kulim,4826.1
+101433,Stephanie,Vazquez,Female,Spain,2003-05-08,2021-04-10,Site Management,Site Management Engineer,Senai,5799.69
+101434,Paige,Phillips,Female,Australia,1990-11-30,2024-05-28,Site Support,Site Support Engineer,Senai,4165.45
+101435,Anong,Chaiprasit,Female,Thailand,1983-11-15,2022-09-04,Engineering,Engineering Manager,Kulim,13876.73
+101436,Sandra,Cook,Female,Vietnam,1991-12-04,2022-05-21,Site Support,Site Support Engineer,Kulim,9569.15
+101437,Nicole,Hutchinson,Female,Singapore,2003-10-22,2023-01-12,Engineering,Engineering Engineer,Kulim,10860.34
+101438,Worawit,Suksan,Male,Thailand,1980-11-26,2020-01-19,Site Support,Site Support Manager,Surabaya,17131.26
+101439,Francis,Ruiz,Male,Poland,1992-08-30,2024-04-13,Engineering,Engineering Manager,Kulim,17829.97
+101440,Sandra,Phillips,Female,Indonesia,1965-05-20,2020-04-14,Site Management,Site Management Manager,Surabaya,13680.89
+101441,Brian,Gardner,Male,Vietnam,1979-02-28,2022-12-12,Data Analysis,Data Analysis Manager,Kulim,17387.02
+101442,Jintana,Wongchai,Female,Thailand,1992-11-20,2024-05-08,Site Support,Site Support Engineer,Kuala Lumpur,6098.9
+101443,Steven,Peterson,Male,Spain,1983-05-14,2021-04-12,Executive Management,Executive Management Engineer,Kulim,20383.38
+101444,Heather,Hernandez,Female,Poland,1973-07-29,2021-04-03,Safety,Safety Manager,Surabaya,17008.22
+101445,Jacob,Delgado,Male,Germany,1994-04-10,2023-10-09,Site Support,Site Support Manager,Kulim,17767.03
+101446,Ratchanon,Chavalit,Male,Thailand,1985-04-22,2022-09-02,Site Support,Site Support Manager,Senai,17347.36
+101447,Joe,Wade,Male,Germany,1964-07-20,2022-02-14,Site Support,Site Support Engineer,Senai,5618.72
+101448,Anita,Morris,Female,Spain,1997-02-23,2024-09-03,Data Analysis,Data Analysis Engineer,Kuala Lumpur,8188.83
+101449,Walter,Williamson,Male,Indonesia,1966-12-19,2021-04-03,Information Technology,Information Technology Engineer,Kulim,9595.32
+101450,Kelly,Jackson,Female,Indonesia,1975-03-26,2020-05-08,Engineering,Engineering Engineer,Senai,7921.65
+101451,Kannika,Kittisak,Female,Thailand,2004-12-08,2024-05-19,Site Support,Site Support Engineer,Senai,4980.98
+101452,John,Roberts,Male,Germany,2005-10-18,2024-08-25,Site Management,Site Management Engineer,Kulim,11848.53
+101453,Jennifer,Brown,Female,Germany,1967-07-10,2021-10-20,Sales,Sales Manager,Surabaya,17300.99
+101454,Jessica,Gibson,Female,Germany,2001-06-01,2024-06-12,Safety,Safety Manager,Senai,14249.62
+101455,Lisa,Buckley,Female,Australia,1992-09-15,2021-03-31,Engineering,Engineering Manager,Kulim,13543.3
+101456,Jessica,Banks,Female,Australia,1992-02-02,2022-08-23,Information Technology,Information Technology Engineer,Surabaya,3786.4
+101457,Charles,Thompson,Male,Spain,1986-12-24,2021-02-05,Site Management,Site Management Manager,Surabaya,17745.75
+101458,Jamie,Rodriguez,Male,Poland,1995-11-30,2022-04-25,Sales,Sales Engineer,Kuala Lumpur,11858.4
+101459,Samantha,Cross,Female,Spain,2005-04-27,2023-02-26,Executive Management,Executive Management Engineer,Senai,24763.57
+101460,Sarah,Trevino,Female,Indonesia,1969-02-27,2020-04-12,Data Analysis,Data Analysis Manager,Kuala Lumpur,17248.11
+101461,Patcharaporn,Poonpat,Female,Thailand,1974-01-02,2022-12-27,Safety,Safety Manager,Senai,14707.37
+101462,Mellisa,Tucker,Female,Spain,1988-07-29,2023-03-22,Sales,Sales Engineer,Kuala Lumpur,13290.57
+101463,Patrick,Marsh,Male,Singapore,1999-07-22,2022-09-18,Information Technology,Information Technology Engineer,Surabaya,11288.51
+101464,Nancy,Lawson,Female,Canada,1972-06-18,2024-08-17,Executive Management,Executive Management Engineer,Kuala Lumpur,19271.71
+101465,Kimberly,Gray,Female,Germany,1996-11-10,2021-11-10,Human Resource,HR Manager,Kuala Lumpur,17518.81
+101466,Beth,Mcdonald,Female,Poland,1973-07-13,2021-03-26,Engineering,Engineering Manager,Surabaya,17331.82
+101467,Jason,Collins,Male,Singapore,1982-06-29,2023-12-29,Safety,Safety Manager,Surabaya,16537.19
+101468,Brian,Vega,Male,Germany,1972-01-27,2022-11-13,Safety,Safety Engineer,Kuala Lumpur,7020.38
+101469,Chatri,Somboon,Male,Thailand,1993-05-10,2024-06-21,Site Support,Site Support Engineer,Kuala Lumpur,13257.82
+101470,Briana,Thomas,Female,Canada,1992-04-06,2024-07-10,Sales,Sales Engineer,Surabaya,13430.46
+101471,Joy,Hughes,Female,New Zealand,1971-06-29,2023-05-05,Human Resource,HR Engineer,Kulim,5176.55
+101472,Anthony,Leon,Male,Spain,1998-07-31,2022-01-07,Site Management,Site Management Manager,Kulim,14466.55
+101473,Supachai,Prasertsak,Male,Thailand,1993-03-06,2022-11-23,Site Support,Site Support Engineer,Kuala Lumpur,5008.69
+101474,Brianna,Lawrence,Female,Canada,1986-09-13,2022-12-14,Human Resource,HR Manager,Senai,13019.42
+101475,Paul,Johns,Male,Canada,1999-09-09,2024-01-06,Sales,Sales Manager,Kulim,17840.24
+101476,William,Rodriguez,Male,Canada,1968-08-27,2024-09-23,Finance,Finance Engineer,Senai,9501.5
+101477,Gina,Shah,Female,Germany,1964-08-14,2020-12-02,Safety,Safety Engineer,Senai,12444.01
+101478,Alan,Anderson,Male,New Zealand,1992-12-01,2021-05-07,Data Analysis,Data Analysis Manager,Kuala Lumpur,15216.53
+101479,Laura,Lamb,Female,Germany,1988-05-25,2022-04-11,Information Technology,Information Technology Engineer,Kuala Lumpur,12181.35
+101480,Ronald,Rogers,Male,Canada,1973-07-02,2021-02-18,Engineering,Engineering Engineer,Senai,4403.79
+101481,Shannon,Rogers,Female,Vietnam,2005-10-01,2019-11-22,Finance,Finance Engineer,Kulim,7993.03
+101482,Andrea,Baird,Male,Indonesia,1981-08-16,2024-05-04,Site Management,Site Management Manager,Kulim,13171.07
+101483,Rachanee,Thammasak,Female,Thailand,1972-07-18,2021-05-22,Site Management,Site Management Manager,Kulim,15405.12
+101484,Ronald,Hoover,Male,Germany,1990-11-12,2021-12-22,Human Resource,HR Manager,Senai,16924.13
+101485,Brandi,Lewis,Male,Australia,1972-01-18,2024-08-08,Executive Management,Executive Management Engineer,Kuala Lumpur,21896.64
+101486,Sonia,Green,Female,New Zealand,2002-10-21,2022-04-15,Site Support,Site Support Manager,Senai,17412.59
+101487,Brian,Johns,Male,Spain,1984-03-10,2021-02-19,Safety,Safety Engineer,Surabaya,4588.96
+101488,Rungnapa,Rungroj,Female,Thailand,1982-05-01,2023-08-27,Finance,Finance Engineer,Senai,13315.32
+101489,Phuwadol,Srisuk,Male,Thailand,1978-03-29,2021-03-05,Sales,Sales Engineer,Kuala Lumpur,5447.13
+101490,Katherine,White,Female,Australia,1971-07-17,2022-05-29,Site Management,Site Management Engineer,Kulim,4488.78
+101491,Katherine,Taylor,Female,Indonesia,1996-11-03,2024-06-08,Executive Management,Executive Management Manager,Surabaya,22152.37
+101492,Randall,Obrien,Male,Indonesia,1982-05-31,2023-01-03,Sales,Sales Engineer,Kulim,9726.35
+101493,Amy,Powell,Female,Singapore,1979-07-26,2021-03-11,Finance,Finance Engineer,Kuala Lumpur,9332.99
+101494,Thanawat,Suwannarat,Male,Thailand,2001-08-13,2024-08-11,Site Management,Site Management Manager,Senai,13854.9
+101495,Russell,Smith,Male,Canada,1997-10-18,2021-08-04,Engineering,Engineering Engineer,Surabaya,8572.33
+101496,Kyle,Hoffman,Male,Poland,1996-04-03,2021-05-04,Finance,Finance Engineer,Surabaya,13110.86
+101497,Bobby,Carey,Male,Australia,1980-05-06,2023-12-29,Engineering,Engineering Engineer,Kulim,7955.99
+101498,Michelle,Brooks,Female,Indonesia,1972-04-24,2023-06-08,Information Technology,Information Technology Manager,Kulim,14480.27
+101499,Keith,Brooks,Male,Singapore,1979-03-20,2020-06-25,Data Analysis,Data Analysis Manager,Senai,14847.83
+101500,Jeffrey,Richards,Male,Singapore,1999-11-26,2023-08-31,Safety,Safety Manager,Surabaya,17427.22
+101501,Ryan,Wyatt,Male,Singapore,1974-07-28,2020-08-31,Sales,Sales Manager,Kulim,16131.3
+101502,Lisa,Williams,Female,New Zealand,1990-04-12,2022-10-19,Finance,Finance Manager,Kuala Lumpur,17590.81
+101503,Logan,Yang,Male,Vietnam,1988-04-13,2021-10-11,Sales,Sales Manager,Senai,13922.01
+101504,David,Deleon,Male,Spain,1991-05-13,2020-07-04,Engineering,Engineering Engineer,Senai,10602.21
+101505,Thomas,Campbell,Male,New Zealand,1994-11-30,2023-09-24,Safety,Safety Manager,Surabaya,17327.58
+101506,David,Delacruz,Male,Spain,1998-09-04,2024-05-18,Engineering,Engineering Manager,Surabaya,14380.29
+101507,Amber,Hall,Female,Spain,1972-01-28,2024-09-08,Data Analysis,Data Analysis Manager,Senai,16425.84
+101508,Saengdao,Nimit,Female,Thailand,1997-11-10,2024-08-09,Safety,Safety Engineer,Kuala Lumpur,6826.25
+101509,Siriporn,Thammarat,Female,Thailand,1982-09-26,2019-12-22,Human Resource,HR Manager,Kulim,14144.36
+101510,Angela,Moore,Female,Australia,1985-06-27,2023-08-15,Sales,Sales Engineer,Surabaya,7727.66
+101511,Marilyn,Hess,Female,Poland,1999-10-18,2021-09-18,Site Support,Site Support Engineer,Kulim,6454.88
+101512,Thip Wanee,Sangwong,Female,Thailand,1971-03-04,2020-11-13,Executive Management,Executive Management Engineer,Kulim,23391.93
+101513,Hannah,Rivas,Female,Australia,2001-06-09,2023-04-10,Executive Management,Executive Management Engineer,Kulim,18082.16
+101514,Sarah,Reed,Female,Australia,1979-11-04,2023-08-07,Site Management,Site Management Engineer,Kuala Lumpur,4345.73
+101515,Shane,Gonzalez,Female,Canada,1973-11-23,2020-10-14,Sales,Sales Engineer,Surabaya,9229.97
+101516,Sara,Hudson,Female,Poland,1976-05-14,2021-09-22,Human Resource,HR Engineer,Kulim,8957.55
+101517,Michele,Stewart,Female,Canada,1989-09-04,2022-12-30,Human Resource,HR Manager,Kuala Lumpur,16350.16
+101518,Ian,Wilson,Male,New Zealand,1969-04-16,2024-06-02,Site Management,Site Management Engineer,Kulim,9828.38
+101519,Jill,Holmes,Female,Poland,1990-01-11,2021-01-21,Data Analysis,Data Analysis Manager,Kuala Lumpur,16942.42
+101520,Glenn,Brown,Female,Canada,1966-08-17,2021-01-05,Human Resource,HR Engineer,Senai,8248.19
+101521,Johnny,Sullivan,Female,Australia,1966-04-20,2019-11-13,Safety,Safety Engineer,Kuala Lumpur,13489.18
+101522,Valerie,Vongchai,Female,Thailand,1984-12-09,2023-12-16,Engineering,Engineering Manager,Surabaya,17546.81
+101523,Cheryl,Lee,Female,Indonesia,1999-09-15,2024-09-29,Engineering,Engineering Manager,Kuala Lumpur,17301.34
+101524,Thiraphong,Boonlert,Male,Thailand,1976-04-30,2024-01-18,Sales,Sales Manager,Surabaya,16325.54
+101525,Randy,Thompson,Male,Spain,1989-07-13,2019-10-30,Engineering,Engineering Manager,Senai,15910.64
+101526,Daniel,Payne,Male,Spain,2003-12-30,2019-11-02,Engineering,Engineering Engineer,Senai,5853.91
+101527,Michael,Lucas,Male,Poland,1969-01-06,2021-01-17,Site Support,Site Support Engineer,Kuala Lumpur,11399.02
+101528,Sarah,Scott,Female,Australia,2002-08-27,2023-03-31,Executive Management,Executive Management Manager,Surabaya,24043.21
+101529,Shawn,Herring,Female,Singapore,1998-12-19,2021-12-05,Information Technology,Information Technology Engineer,Kulim,4436.37
+101530,Jorge,Clark,Male,Australia,1992-12-20,2022-08-18,Executive Management,Executive Management Engineer,Kuala Lumpur,19293.93
+101531,Sarawut,Srisawat,Male,Thailand,2006-06-16,2024-06-20,Executive Management,Executive Management Engineer,Surabaya,17953.29
+101532,Joanna,Moore,Female,Canada,1964-12-24,2024-08-31,Safety,Safety Engineer,Kulim,9096.39
+101533,Wayne,Alexander,Male,New Zealand,1974-02-02,2022-06-16,Finance,Finance Engineer,Kuala Lumpur,6946.39
+101534,Anita,Davis,Female,Canada,1993-05-17,2024-01-12,Data Analysis,Data Analysis Engineer,Kulim,3504.28
+101535,Morgan,Mcclure,Male,Germany,1988-10-21,2024-10-03,Engineering,Engineering Engineer,Kulim,7426.14
+101536,Danielle,Jones,Female,Poland,1980-10-06,2021-07-24,Sales,Sales Engineer,Senai,3542.64
+101537,Patrick,Roberts,Male,Spain,1974-12-22,2022-02-24,Human Resource,HR Engineer,Kuala Lumpur,4754.6
+101538,Robert,Martinez,Male,Spain,1973-09-23,2023-02-19,Finance,Finance Manager,Kuala Lumpur,17171.73
+101539,Chelsea,Hart,Male,Vietnam,1968-04-25,2023-09-14,Data Analysis,Data Analysis Manager,Kuala Lumpur,17287.37
+101540,Anthony,Hickman,Male,Singapore,1995-12-29,2023-12-19,Information Technology,Information Technology Engineer,Kuala Lumpur,13239.71
+101541,Anthony,Huang,Male,New Zealand,2000-12-16,2023-07-05,Finance,Finance Manager,Kulim,16373.77
+101542,Justin,Esparza,Male,Poland,1996-10-16,2020-05-24,Finance,Finance Manager,Surabaya,16547.25
+101543,Sarah,Flores,Female,Singapore,1996-01-19,2022-05-12,Finance,Finance Manager,Surabaya,13504.28
+101544,Larry,Cline,Male,Australia,1999-08-22,2019-11-10,Data Analysis,Data Analysis Manager,Kuala Lumpur,15314.87
+101545,Suttipong,Yuthasak,Male,Thailand,1994-06-30,2023-09-08,Sales,Sales Engineer,Senai,13275.79
+101546,Maria,Fisher,Female,Canada,1981-05-09,2021-07-03,Sales,Sales Manager,Kuala Lumpur,13839.0
+101547,Holly,Lewis,Female,Spain,2004-06-22,2020-07-11,Executive Management,Executive Management Engineer,Surabaya,21068.61
+101548,Andrew,Reed,Male,Indonesia,1985-04-29,2020-08-18,Data Analysis,Data Analysis Engineer,Senai,9128.62
+101549,Mark,Gomez,Male,Spain,1974-04-04,2023-04-25,Information Technology,Information Technology Engineer,Kulim,5093.65
+101550,Nicole,Mcgrath,Female,Poland,1964-11-11,2024-04-13,Information Technology,Information Technology Manager,Surabaya,16316.45
+101551,Billy,Stewart,Female,Poland,1981-01-06,2022-07-08,Safety,Safety Manager,Kuala Lumpur,16431.67
+101552,Carrie,Jones,Female,New Zealand,1990-02-20,2022-07-01,Finance,Finance Engineer,Surabaya,5215.58
+101553,Tanya,Campbell,Female,Vietnam,1983-08-25,2022-05-02,Safety,Safety Engineer,Kulim,12030.86
+101554,Peggy,Brown,Female,Canada,1963-12-16,2021-10-14,Engineering,Engineering Manager,Surabaya,15324.67
+101555,Tammy,Foster,Female,Singapore,1995-06-16,2021-02-15,Finance,Finance Manager,Kulim,13294.09
+101556,Chris,Gillespie,Female,Germany,1991-12-14,2020-03-12,Data Analysis,Data Analysis Engineer,Surabaya,6259.52
+101557,Tyler,Owen,Male,Vietnam,1997-02-06,2022-04-12,Human Resource,HR Engineer,Senai,5304.26
+101558,Kevin,Jones,Male,Canada,1989-03-17,2024-03-16,Executive Management,Executive Management Engineer,Surabaya,18124.82
+101559,Nittaya,Intarachai,Female,Thailand,1995-07-05,2020-08-25,Human Resource,HR Manager,Senai,15393.03
+101560,Daniel,Pearson,Male,Singapore,2005-05-11,2024-07-03,Site Support,Site Support Engineer,Surabaya,3568.09
+101561,Carrie,Wood,Female,New Zealand,1994-02-12,2022-03-28,Safety,Safety Manager,Surabaya,15264.83
+101562,Dorothy,Adams,Female,Vietnam,2002-03-17,2024-02-17,Finance,Finance Manager,Senai,16964.56
+101563,Pongsak,Chaisuwan,Male,Thailand,1988-10-31,2022-08-09,Data Analysis,Data Analysis Engineer,Surabaya,10057.12
+101564,Anthony,Shelton,Male,Canada,1997-03-18,2021-05-26,Sales,Sales Manager,Kulim,13393.1
+101565,Juan,Fields,Male,Germany,2003-01-27,2023-07-24,Sales,Sales Engineer,Senai,6614.77
+101566,Pattama,Panyarachun,Female,Thailand,1987-10-30,2023-11-08,Finance,Finance Engineer,Kuala Lumpur,4666.58
+101567,Bryan,Mayer,Male,Singapore,1965-06-25,2024-01-23,Information Technology,Information Technology Engineer,Senai,4905.11
+101568,Nattapong,Somchai,Male,Thailand,2004-12-19,2023-08-11,Engineering,Engineering Manager,Senai,13136.96
+101569,Olivia,Shea,Female,Spain,1991-07-20,2024-05-09,Finance,Finance Engineer,Senai,4621.07
+101570,Charles,Moore,Male,Vietnam,1988-12-14,2020-06-06,Information Technology,Information Technology Manager,Surabaya,15380.94
+101571,Julie,Kelly,Female,Poland,1978-03-08,2024-04-16,Sales,Sales Engineer,Kulim,4108.39
+101572,Richard,Hampton,Male,Germany,1997-08-18,2022-10-10,Human Resource,HR Engineer,Kuala Lumpur,5677.93
+101573,Elizabeth,Martinez,Female,Indonesia,1998-04-26,2019-12-22,Safety,Safety Engineer,Kulim,7828.55
+101574,Kittisak,Kraipob,Male,Thailand,1967-08-14,2021-12-08,Site Management,Site Management Engineer,Senai,10573.96
+101575,Victor,Villegas,Female,Germany,1972-10-15,2024-02-05,Human Resource,HR Engineer,Kulim,6349.67
+101576,Elizabeth,Novak,Female,Indonesia,2004-10-12,2022-11-26,Sales,Sales Engineer,Surabaya,6101.67
+101577,John,Brown,Male,Spain,1972-02-09,2021-11-13,Finance,Finance Manager,Kuala Lumpur,17192.14
+101578,Cynthia,Johnson,Female,Poland,1966-10-20,2021-11-24,Site Management,Site Management Manager,Kulim,17853.01
+101579,Julie,Conway,Female,Indonesia,1967-10-27,2020-01-23,Site Management,Site Management Manager,Senai,14732.01
+101580,Kevin,Mcfarland,Male,Australia,1968-01-31,2023-05-29,Information Technology,Information Technology Manager,Kuala Lumpur,14664.37
+101581,Bobby,Johnson,Female,Vietnam,1969-06-30,2020-07-27,Finance,Finance Engineer,Kuala Lumpur,7981.28
+101582,Derek,Choi,Male,Spain,2005-09-30,2021-06-21,Site Support,Site Support Engineer,Surabaya,10244.95
+101583,Kevin,Peterson,Female,New Zealand,1975-01-28,2022-11-28,Site Management,Site Management Engineer,Kulim,6548.11
+101584,Heather,Lewis,Female,Australia,1995-05-08,2021-12-30,Data Analysis,Data Analysis Engineer,Kulim,8963.32
+101585,Rebecca,Russell,Female,New Zealand,1987-10-16,2020-03-03,Sales,Sales Engineer,Kuala Lumpur,12089.36
+101586,Jon,Oliver,Male,Spain,1971-07-26,2021-02-16,Engineering,Engineering Manager,Surabaya,13078.52
+101587,Shannon,Phillips,Female,Australia,1988-12-13,2023-12-02,Finance,Finance Manager,Kuala Lumpur,15829.15
+101588,Casey,Dean,Male,Poland,1991-09-25,2022-10-09,Sales,Sales Engineer,Kulim,6990.22
+101589,Supatra,Wattanachai,Female,Thailand,1975-04-03,2024-01-26,Engineering,Engineering Manager,Surabaya,16008.84
+101590,Viyada Ploy ,Boonserm,Female,Thailand,1966-01-02,2022-12-07,Executive Management,Executive Management Engineer,Surabaya,18959.13
+101591,Rose,Anderson,Female,Germany,2006-09-13,2024-07-09,Site Support,Site Support Engineer,Kulim,7695.28
+101592,Orathai,Supasiri,Female,Thailand,1972-09-03,2021-05-07,Finance,Finance Engineer,Kulim,11709.41
+101593,James,Keith,Male,Poland,1970-02-28,2023-11-05,Site Management,Site Management Engineer,Senai,9410.23
+101594,Jenna,Johnson,Female,Australia,1967-11-14,2020-08-13,Sales,Sales Engineer,Senai,10554.61
+101595,Terri,Short,Female,New Zealand,1981-08-17,2023-09-01,Information Technology,Information Technology Engineer,Kuala Lumpur,10490.96
+101596,Julie,Richardson,Female,Germany,2001-07-08,2023-11-24,Information Technology,Information Technology Manager,Kulim,17507.55
+101597,Beverly,Curtis,Male,Germany,2002-09-24,2022-01-06,Safety,Safety Engineer,Kuala Lumpur,8665.35
+101598,Luke,Kelley,Male,Germany,1997-11-18,2021-02-15,Safety,Safety Engineer,Kuala Lumpur,11634.57
+101599,Susan,West,Female,Vietnam,1974-04-09,2022-04-24,Human Resource,HR Manager,Kuala Lumpur,14344.04
+101600,Sally,Bailey,Female,Vietnam,1972-10-19,2021-10-17,Information Technology,Information Technology Manager,Senai,15135.77
+101601,Megan,Rojas,Female,Indonesia,1971-03-24,2023-08-04,Site Support,Site Support Manager,Surabaya,14332.4
+101602,Susan,Jackson,Female,Indonesia,1978-05-28,2021-01-12,Executive Management,Executive Management Manager,Kulim,18714.55
+101603,Richard,Jones,Male,Singapore,1995-08-26,2022-06-18,Site Management,Site Management Manager,Senai,14533.19
+101604,Dawn,Wilcox,Male,Poland,1963-12-12,2022-12-30,Data Analysis,Data Analysis Engineer,Kuala Lumpur,8929.55
+101605,Cynthia,Russell,Female,Canada,1997-10-31,2021-01-16,Site Support,Site Support Engineer,Surabaya,9894.73
+101606,Travis,Norman,Female,Spain,1991-02-18,2024-06-15,Engineering,Engineering Engineer,Kulim,6478.06
