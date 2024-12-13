@@ -57,7 +57,7 @@ try:
     # Retrieve and print data
     documents = list(collection.find())
     df_employees = pd.DataFrame(documents)
-    df_employees = df_employees.drop(columns=["_id"])
+
     df_avg_salary_by_dept = avg_by_depart(df_employees)
 
 
