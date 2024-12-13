@@ -5,6 +5,23 @@ from pymongo import MongoClient
 
 
 def avg_by_depart(df):
+    """
+    Computes a DataFrame containing aggregated salary statistics by department from
+    the provided input DataFrame. The output DataFrame includes the average salary,
+    total salary, and the number of employees for each department.
+
+    :param df: A pandas DataFrame containing at least the following columns:
+               'Department' (department identifier or name), 'salary' (employee salary),
+               and 'emp_id' (unique employee identifier).
+    :type df: pandas.DataFrame
+    :return: A pandas DataFrame with aggregated salary-related statistics by department.
+             The output contains the following columns:
+             - 'Department': the department names or identifiers.
+             - 'Number of Employees': the count of employees in each department.
+             - 'Average Salary By Dept': the average salary for each department, rounded to 2 decimals.
+             - 'Total Salary': the total salary paid in each department.
+    :rtype: pandas.DataFrame
+    """
     df_avg_salary_by_dept = round(df.groupby('Department')['salary'].mean().reset_index(), 2)
     df_avg_salary_by_dept.columns = ['Department', 'Average Salary By Dept']
     df_total_salary_by_dept = df.groupby('Department')['salary'].sum().reset_index()
@@ -55,21 +72,17 @@ app = Flask(__name__)
 @app.route('/')
 def display_data():
     """
-    Function to display employee data in an HTML table format within a Flask application.
+    Displays employee data and average salary by department in a web browser using Flask.
 
-    This function converts a given DataFrame (assumed to be `df_employees`) into an
-    HTML table representation and serves it to the user using Flask's
-    render_template_string method. The rendered HTML includes a basic structure with
-    some styling applied to the table for better presentation. The table is embedded
-    directly into the returned HTML content.
+    This function fetches and converts two DataFrame objects, `df_employees` and
+    `df_avg_salary_by_dept`, into their corresponding HTML table representations.
+    The tables are then rendered into an HTML template, styled, and returned for
+    the web browser to display. The function uses Flask's `render_template_string`
+    for inline HTML rendering.
 
-    :param None: The function does not accept any parameters.
-
-    :raises ValueError: If the DataFrame object `df_employees` is missing or not defined,
-    or if it cannot be properly converted to HTML.
-
-    :return: String representation of the rendered HTML content including the styled table.
     :rtype: str
+    :return: An HTML string containing tables styled and embedded within a
+        complete HTML document, ready to be served to the web client.
     """
     # Convert DataFrame to HTML
     html_table1 = df_employees.to_html(index=False)

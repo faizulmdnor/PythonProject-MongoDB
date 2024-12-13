@@ -4,14 +4,15 @@ import os
 
 def mongoDB_connect():
     """
-    Establishes a connection to a MongoDB database using environment variables
-    to configure the connection parameters. This function connects to a MongoDB
-    instance that can be either local or containerized, depending on the setup.
-    The connection details such as container name, username, and password are
-    retrieved from environment variables with default values provided.
+    Establishes a connection to a MongoDB database using the provided environment
+    variables or their default values. This connection enables interaction with
+    the MongoDB server through the `pymongo.MongoClient`.
 
-    :return: A MongoClient instance connected to the specified MongoDB server.
-    :rtype: MongoClient
+    :raises pymongo.errors.ConnectionError: If the client fails to connect to the
+        MongoDB server using the provided configuration.
+
+    :return: A `MongoClient` instance connected to the specified MongoDB server.
+    :rtype: pymongo.MongoClient
     """
     container_name = os.getenv('MONGO_CONTAINER_NAME', 'localhost')
     username = os.getenv('MONGO_USERNAME', 'admin')
@@ -28,12 +29,13 @@ def mongoDB_connect():
 
 class mongodb_docker:
     """
-    This class provides static methods for interacting with a MongoDB database hosted
-    in a Docker container. It allows for retrieving data from a specified collection
-    and inserting new data into a collection, with optional handling for a primary key
-    to avoid duplicate entries.
+    A utility class to interact with MongoDB in a Docker environment.
 
-    :ivar client: The MongoDB client instance used to connect to the database.
+    This class provides static methods to connect to a MongoDB instance, retrieve data
+    from a specified collection, and insert data into the collection. It is designed
+    to work specifically in environments where MongoDB is deployed in a Docker container.
+
+    :ivar client: The MongoDB client connection instance.
     :type client: pymongo.MongoClient
     """
     @staticmethod
