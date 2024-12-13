@@ -4,7 +4,6 @@ import pandas as pd
 from flask import Flask, render_template_string
 from pymongo import MongoClient
 
-
 def avg_by_depart(df):
     """
     Calculates and aggregates various salary-related statistics by department.
@@ -28,6 +27,7 @@ def avg_by_depart(df):
         average salary by department, and total salary by department.
     :rtype: pandas.DataFrame
     """
+
     df_avg_salary_by_dept = round(df.groupby('Department')['salary'].mean().reset_index(), 2)
     df_avg_salary_by_dept.columns = ['Department', 'Average Salary By Dept']
     df_total_salary_by_dept = df.groupby('Department')['salary'].sum().reset_index()
@@ -46,8 +46,8 @@ def avg_by_depart(df):
 
     df_salary_dept = df_count.merge(df_above, on='Department').merge(df_below, on='Department').merge(
         df_avg_salary_by_dept, on='Department').merge(df_total_salary_by_dept, on='Department')
-    return df_salary_dept
 
+    return df_salary_dept
 
 # Using environment variables for sensitive information
 container_name = os.getenv('MONGO_CONTAINER_NAME', 'localhost')
